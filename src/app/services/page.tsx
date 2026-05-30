@@ -9,7 +9,7 @@ export default function ServicesPage() {
       title: "Logo & Branding",
       desc: "Menciptakan identitas visual yang memorable dan powerful untuk brand Anda",
       features: ["Logo Design", "Brand Guidelines", "Color Palette", "Typography System"],
-      price: "Mulai dari Rp 5 Juta",
+      price: "Mulai dari Rp.300.000",
       timeline: "7-14 hari"
     },
     {
@@ -18,7 +18,7 @@ export default function ServicesPage() {
       title: "Jersey & Apparel Design",
       desc: "Design custom jersey, kaos, dan merchandise dengan style yang trendy",
       features: ["Jersey Design", "Mockup Creation", "Print Ready Files", "Revisions Unlimited"],
-      price: "Mulai dari Rp 2 Juta",
+      price: "Mulai dari Rp.85.000 per item",
       timeline: "3-7 hari"
     },
     {
@@ -27,7 +27,7 @@ export default function ServicesPage() {
       title: "Social Media Design",
       desc: "Konten visual yang engaging untuk semua platform media sosial Anda",
       features: ["Instagram Posts", "Stories", "Reels Thumbnails", "Feed Design"],
-      price: "Mulai dari Rp 1.5 Juta",
+      price: "Mulai dari Rp.105.000",
       timeline: "3-5 hari"
     },
     {
@@ -36,7 +36,7 @@ export default function ServicesPage() {
       title: "Product Packaging",
       desc: "Design packaging yang menarik dan functional untuk produk Anda",
       features: ["3D Packaging Design", "Label Design", "Print Specifications", "Multiple Variations"],
-      price: "Mulai dari Rp 3 Juta",
+      price: "Mulai dari Rp.1.500.000",
       timeline: "5-10 hari"
     },
     {
@@ -45,17 +45,8 @@ export default function ServicesPage() {
       title: "Print Design",
       desc: "Design untuk kebutuhan print seperti brosur, poster, dan materi marketing",
       features: ["Brochure Design", "Poster Design", "Business Cards", "Print-Ready Files"],
-      price: "Mulai dari Rp 2 Juta",
+      price: "Mulai dari Rp.100.000",
       timeline: "5-7 hari"
-    },
-    {
-      id: 6,
-      icon: "🎯",
-      title: "Brand Consultation",
-      desc: "Konsultasi lengkap untuk mengembangkan strategi branding yang tepat",
-      features: ["Brand Strategy", "Competitor Analysis", "Market Research", "Recommendation Plan"],
-      price: "Mulai dari Rp 3 Juta",
-      timeline: "2-3 hari"
     },
   ];
 
