@@ -30,7 +30,7 @@ export default function Footer() {
   {
     icon: <FaInstagram />,
     label: "Instagram",
-    href: "https://www.instagram.com/ariesikch",
+    href: "https://www.instagram.com/ariesikhc",
   },
   {
     icon: <FaPinterest />,
