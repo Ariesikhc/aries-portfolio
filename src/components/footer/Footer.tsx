@@ -25,7 +25,7 @@ export default function Footer() {
   {
     icon: <FaTiktok />,
     label: "TikTok",
-    href: "https://www.tiktok.com/@ariesikhc",
+    href: "https://www.tiktok.com/@aries_ikhctiar",
   },
   {
     icon: <FaInstagram />,
