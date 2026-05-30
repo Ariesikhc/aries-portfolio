@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: "Aries Ikhctiar",
