@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { FaTiktok, FaInstagram, FaPinterest } from "react-icons/fa";
+import { FaTiktok, FaInstagram, FaPinterest, FaWhatsapp } from "react-icons/fa";
+import { MdEmail, MdLocationOn } from "react-icons/md";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -16,9 +17,9 @@ export default function Footer() {
   ];
 
   const contactLinks = [
-    { icon: "📧", label: "Email", value: "ikhctiar@gmail.com", href: "mailto:ikhctiar@gmail.com" },
-    { icon: "📱", label: "WhatsApp", value: "+62 813-1882-3247", href: "https://wa.me/6281318823247" },
-    { icon: "📍", label: "Location", value: "Jambi, Indonesia", href: "https://www.google.com/maps/place/pan_panstore+Jambi/@-1.620567,103.6234303,20z/data=!4m15!1m7!3m6!1s0x2e2588a55b4466dd:0x6d999f8e13c9a2e8!2span_panstore+Jambi!8m2!3d-1.6205499!4d103.6236804!16s%2Fg%2F11dd_thkcr!3m6!1s0x2e2588a55b4466dd:0x6d999f8e13c9a2e8!8m2!3d-1.6205499!4d103.6236804!15sCgxwYW5wYW4gc3RvcmVaDiIMcGFucGFuIHN0b3JlkgETbWVuc19jbG90aGluZ19zdG9yZeABAA!16s%2Fg%2F11dd_thkcr?hl=en-US&entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D" },
+    { icon: <MdEmail />, label: "Email", value: "ikhctiar@gmail.com", href: "mailto:ikhctiar@gmail.com" },
+    { icon: <FaWhatsapp />, label: "WhatsApp", value: "+62 813-1882-3247", href: "https://wa.me/6281318823247" },
+    { icon: <MdLocationOn />, label: "Location", value: "Jambi, Indonesia", href: "https://www.google.com/maps/place/pan_panstore+Jambi/@-1.620567,103.6234303,20z/data=!4m15!1m7!3m6!1s0x2e2588a55b4466dd:0x6d999f8e13c9a2e8!2span_panstore+Jambi!8m2!3d-1.6205499!4d103.6236804!16s%2Fg%2F11dd_thkcr!3m6!1s0x2e2588a55b4466dd:0x6d999f8e13c9a2e8!8m2!3d-1.6205499!4d103.6236804!15sCgxwYW5wYW4gc3RvcmVaDiIMcGFucGFuIHN0b3JlkgETbWVuc19jbG90aGluZ19zdG9yZeABAA!16s%2Fg%2F11dd_thkcr?hl=en-US&entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D" },
   ];
 
   const socialLinks = [
@@ -136,7 +137,7 @@ export default function Footer() {
         {/* Bottom Footer */}
         <div className="py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-white/60">
-            © {currentYear} Aries Ikhciar. All rights reserved.
+            © {currentYear} Aries Ikhctiar. All rights reserved.
           </p>
           <div className="flex gap-6">
             <Link href="#" className="text-sm text-white/60 hover:text-white transition">
