@@ -15,16 +15,14 @@ export default function Footer() {
   ];
 
   const contactLinks = [
-    { icon: "📧", label: "Email", value: "aries@example.com", href: "mailto:aries@example.com" },
-    { icon: "📱", label: "WhatsApp", value: "+62 812-3456-7890", href: "https://wa.me/62812345678" },
-    { icon: "📍", label: "Location", value: "Jakarta, Indonesia", href: "#" },
+    { icon: "📧", label: "Email", value: "ikhctiar@gmail.com", href: "mailto:ikhctiar@gmail.com" },
+    { icon: "📱", label: "WhatsApp", value: "+62 813-1882-3247", href: "https://wa.me/6281318823247" },
+    { icon: "📍", label: "Location", value: "Jambi, Indonesia", href: "https://www.google.com/maps/place/pan_panstore+Jambi/@-1.620567,103.6234303,20z/data=!4m15!1m7!3m6!1s0x2e2588a55b4466dd:0x6d999f8e13c9a2e8!2span_panstore+Jambi!8m2!3d-1.6205499!4d103.6236804!16s%2Fg%2F11dd_thkcr!3m6!1s0x2e2588a55b4466dd:0x6d999f8e13c9a2e8!8m2!3d-1.6205499!4d103.6236804!15sCgxwYW5wYW4gc3RvcmVaDiIMcGFucGFuIHN0b3JlkgETbWVuc19jbG90aGluZ19zdG9yZeABAA!16s%2Fg%2F11dd_thkcr?hl=en-US&entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D" },
   ];
 
   const socialLinks = [
-    { icon: "f", label: "Facebook", href: "#" },
+    { icon: "T", label: "TikTok", href: "#" },
     { icon: "ig", label: "Instagram", href: "#" },
-    { icon: "in", label: "LinkedIn", href: "#" },
-    { icon: "tw", label: "Twitter", href: "#" },
   ];
 
   return (

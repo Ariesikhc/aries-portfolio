@@ -214,7 +214,7 @@ export default function ContactPage() {
               style={{ border: 0 }}
               loading="lazy"
               allowFullScreen
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6711455141337!2d106.8270321147541!3d-6.175392395510582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b5d%3A0x5b82fffc323e5100!2sJakarta%2C%20Indonesia!5e0!3m2!1sen!2sid!4v1234567890"
+              src="https://www.google.com/maps/place/pan_panstore+Jambi/@-1.620567,103.6234303,20z/data=!4m15!1m7!3m6!1s0x2e2588a55b4466dd:0x6d999f8e13c9a2e8!2span_panstore+Jambi!8m2!3d-1.6205499!4d103.6236804!16s%2Fg%2F11dd_thkcr!3m6!1s0x2e2588a55b4466dd:0x6d999f8e13c9a2e8!8m2!3d-1.6205499!4d103.6236804!15sCgxwYW5wYW4gc3RvcmVaDiIMcGFucGFuIHN0b3JlkgETbWVuc19jbG90aGluZ19zdG9yZeABAA!16s%2Fg%2F11dd_thkcr?hl=en-US&entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D"
             />
           </div>
         </div>

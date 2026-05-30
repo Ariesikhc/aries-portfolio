@@ -1,8 +1,9 @@
 import "./globals.css";
 import type { Viewport } from "next";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
-  title: "Aries Ikhciar",
+  title: "Aries Ikhctiar",
   description: "Creative Designer Portfolio",
 };
 
@@ -20,7 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
