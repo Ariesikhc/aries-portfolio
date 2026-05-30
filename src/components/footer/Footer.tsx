@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { FaTiktok, FaInstagram, FaPinterest } from "react-icons/fa";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -21,9 +22,22 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: "T", label: "TikTok", href: "#" },
-    { icon: "ig", label: "Instagram", href: "#" },
-  ];
+  {
+    icon: <FaTiktok />,
+    label: "TikTok",
+    href: "https://www.tiktok.com/@ariesikhc",
+  },
+  {
+    icon: <FaInstagram />,
+    label: "Instagram",
+    href: "https://www.instagram.com/ariesikch",
+  },
+  {
+    icon: <FaPinterest />,
+    label: "Pinterest",
+    href: "https://www.pinterest.com/xustocreative",
+  },
+];
 
   return (
     <footer className="relative border-t border-white/10 bg-black/50 backdrop-blur-xl">
@@ -45,7 +59,7 @@ export default function Footer() {
                   key={social.label}
                   href={social.href}
                   title={social.label}
-                  className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-white/20 text-white/70 transition hover:border-[#D41414] hover:text-[#D41414] text-sm font-semibold"
+                  className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-white/20 text-white/70 transition-all duration-300 hover:border-[#D41414] hover:text-[#D41414] hover:scale-110 text-xl"
                 >
                   {social.icon}
                 </a>
